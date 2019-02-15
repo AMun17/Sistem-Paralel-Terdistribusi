@@ -1,0 +1,33 @@
+TASK I
+
+*Tanpa SynchronizedPrinter*
+
+Saat program di run maka hasil yang ditampilkan adalah String yang diinput pada
+user1, user2, user3 secara berurutan dan bergantian pada setiap indexnya. 
+Dimulai dari user1 dengan string pada index ke-0, user2 dengan string pada 
+index ke-0, dan diikuti user3 dengan string pada index ke-0.
+Setelah itu kembali menampilkan string yang berada pada user1 dengan
+index selanjutnya sampai string pada user1, user2, user3 semuanya
+ditampilkan dengan total build selama 6 detik.
+
+*Dengan SynchronizedPrinter*
+
+Saat program di run maka hasil yang ditampilkan adalah String yang diinput pada
+user1, user2, user3 secara berurutan dan bergantian. Namun yang membedakan
+menggunakan SynchronizedPrinter dan tidak menggunakan adalah output yang dihasilkan 
+dengan SynchronizedPrinter terlebih dahulu menampilkan seluruh string yang ada di 
+user1, diikuti user2 dan user3. Jika tanpa synchronizedPrinter output yang dihasilkan
+adalah bergantian pada setiap indexnya, namun dengan menggunakan synchron, output yang
+dihasilkan lebih berurut karena setiap user saling synchron.
+total build selama 16 detik.
+
+TASK II
+
+Cookie
+Saat program di run, maka hasil yang ditampilkan adalah consumer akan lebih dulu memberitahukan
+bahwa jar nya masih kosong. Maka Producer akan mengisi jar dengan cookie, dan consumer akan mengambil cookie
+dari jar yang telah diisi. Setiap proses yang dilakukan oleh produser maka akan dihitung dengan 
+"seq" dari semua producer akan bertambah. Sama halnya dengan consumer, setiap consumer mengambil cookie dari jar
+maka jumlah "seq" akan bertambah. Seq merupakan perulangan atau jumlah dari seberapa banyak consumer mengambil
+cookie dari jar dan seberapa banyak producer mengisi cookie ke dalam jar.
+Total buildd dari program selama 2 detik.
