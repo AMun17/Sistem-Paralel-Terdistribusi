@@ -1,0 +1,46 @@
+- 10L
+ pada 10L, ditemukan hasil 
+ 2 primes were found between 1 to 3
+ 1 primes were found between 4 to 6
+ 1 primes were found between 7 to 9
+ 0 primes were found between 10 to 10
+ dengan waktu pengeksekusian program selama 0 sec.
+
+- 1000L
+ pada 1000L, ditemukan hasil
+ 53 primes were found between 1 to 250
+ 42 primes were found between 251 to 500
+ 37 primes were found between 501 to 750
+ 36 primes were found between 751 to 1000
+ dengan waktu pengeksekusian program selama 0 sec.
+
+- 10000L
+ pada 10000L, ditemukan hasil
+ 367 primes were found between 1 to 2500
+ 302 primes were found between 2501 to 5000
+ 281 primes were found between 5001 to 7500
+ 279 primes were found between 7501 to 10000
+ dengan waktu pengeksekusian program selama 0 sec.
+
+- 100000L
+ pada 100000L, ditemukan hasil
+ 2762 primes were found between 1 to 25000
+ 2371 primes were found between 25001 to 50000
+ 2260 primes were found between 50001 to 75000
+ 2199 primes were found between 75001 to 100000
+ dengan waktu  pengeksekusian program selama 5 sec.
+finished in 5 sec(s)
+
+- 1000000L
+ 22044 primes were found between 1 to 250000
+ 19494 primes were found between 250001 to 500000
+ 18700 primes were found between 500001 to 750000
+ 18260 primes were found between 750001 to 1000000
+dengan waktu pengeksekusian program selama 410 sec.
+
+ pada penggunaan thread, pencarian bilangan prima dibagi menjadi 4 bagian, jadi setiap thread akan menghitung bagiannya masing - masing
+ dan penghitungan dilakukan secara bersamaan sehingga waktu yang dibutuhkan akan lebih efisien jika dibandingkan dengan yang tidak
+ menggunakan thread. Penggunaan thread dalam program dapat mempercepat proses pengeksekusian karena setiap thread telah diberikan bagian
+ dalam pengerjaan tugas.Perbandingan yang dilakukan dalam penggunaan thread dan tidak menggunakan thread dapat dilihat dalam file
+ plaintext_PrimeCounter.txt yang merupakan tanpa thread dan plaintext_ThreadedPrimeCounter.txt dengan yang menggunakan thread.
+ Jika dibandingkan waktu pengeksekusian program, maka sudah terbukti jika penggunaan thread akan lebih efisien dibandingkan tanpa thread

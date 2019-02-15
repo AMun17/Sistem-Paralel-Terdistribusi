@@ -1,0 +1,21 @@
+- 1000L
+ pada 1000L, output menghasilkan sejumlah 168 bilangan prima yang ditemukan pada bilangan 1 sampai 1000
+ dengan  waktu pengeksekusian selama 0 detik
+
+- 10000L
+ pada 10000L, output menghasilkan sejumlah 1229 bilangan prima yang ditemukan pada bilangan 1 sampai 10000
+ waktu pengeksekusian selama 0 detik
+
+- 100000L
+ pada 100000L, output menghasilkan sejumlah 9592 bilangan prima yang ditemukan pada bilangan 1 sampai 100000
+ dengan waktu pengeksekusian selama 5 detik
+
+- 1000000L
+ pada 1000000L, output menghasilkan sejumlah 78498 bilangan prima yang ditemukan diantara bilangan 1 sampai 1000000
+ dengan waktu pengeksekusian selama 530 detik
+
+dari hasil yang telah ditemukan tersebut, dapat disimpulkan bahwa semakin besar interval dari bilangan yang akan dicari bilangan prima,
+maka waktu yang diperlukan untuk pengeksekusian akan semakin lama. misalkan pada 1000L dan 10000L, waktu yang dibutuhkan untuk mengeksekusi program
+adalah sekitar 0 sec, namun saat jumlah bilangan ditambah yaitu 100000L, waktu pengeksekusian program adalah sekitar 5 sec, dan pada
+1000000L, waktu pengeksekusian program selama 401 sec. Jika interval bilangan semakin bertambah banyak, maka lama waktu pengeksekusian akan
+semakin lama juga.
